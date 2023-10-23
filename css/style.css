@@ -157,3 +157,28 @@ h3 {
     text-decoration: none;
     color: black;
 }
+
+/* MEDIA QUERIES */
+@media (max-width: 760px){
+    header {
+        flex-direction: column;
+    }
+    .h2-titulo {
+        margin-bottom: 20px;
+    }
+    .main-index {
+        flex-direction: column;
+    }
+    .esquerda {
+        margin: auto;
+        width: 100%;
+    }
+    
+    .direita {
+        margin: auto;
+        width: 100%;
+    }
+    .centro {
+        width: 90%;
+    }
+}
